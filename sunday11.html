@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #daa520;
+        font-family: cursive;
+        padding: 25px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+      }
+
+      form p {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+      }
+
+      form p label {
+        margin-bottom: 8px;
+        margin-top: 8px;
+      }
+
+      form p input {
+        padding: 10px;
+        width: 350px;
+        border-radius: 12px;
+        border: none;
+      }
+
+      form p input::placeholder {
+        font-family: cursive;
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <p>
+        <label for="">Name</label>
+        <input type="text" placeholder="Enter your name" />
+      </p>
+      <p>
+        <label for="">Email</label>
+        <input type="email" placeholder="Enter your email" />
+      </p>
+      <p>
+        <label for="">Phone Number</label>
+        <input type="tel" placeholder="Enter your number" />
+      </p>
+      <p>
+        <label for="">Password</label>
+        <input type="password" placeholder="Enter your password" />
+      </p>
+      <p>
+        <label for="">Increase Volume</label>
+        <input type="range" placeholder="Enter your password" />
+      </p>
+      <p>
+        <label for="">Choose Color</label>
+        <input type="color" placeholder="Enter your password" />
+      </p>
+      <p>
+        <label for="">Choose Color</label>
+        <input type="file" />
+      </p>
+    </form>
+  </body>
+</html>
